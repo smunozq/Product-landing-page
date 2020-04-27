@@ -1,0 +1,138 @@
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: aliceblue;
+  width: 100%;
+}
+
+#header-img {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#nav-bar {
+  align-items: flex-end;
+}
+#nav-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.nav-link {
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: blue;
+}
+
+main {
+  margin-top: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 250%;
+}
+
+#titulo_1 {
+  text-align: center;
+}
+
+#Pregrado {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#Pregrado div {
+  width: 40%;
+}
+
+#Administracion {
+  width: 50%;
+  margin: auto;
+  margin-top: 5px;
+  display: block;
+}
+
+#Economia {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#Derecho {
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  display: block;
+}
+
+#Posgrado {
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+#idiomas,
+h2 {
+  text-align: center;
+}
+
+#Descrip_idiomas {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+#Precios {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#Precios article {
+  border: 1px solid black;
+  color: black;
+  width: 15%;
+  height: 150px;
+}
+
+.button {
+  position: relative;
+  top: 200%;
+  padding: 3%;
+  border-radius: 1px;
+}
+
+#Contacto {
+  text-align: center;
+}
+
+#email {
+  width: 40%;
+  text-align: center;
+}
+
+#submit {
+  width: 70px;
+  padding: 5px;
+  border-radius: 1px;
+  margin-top: 10px;
+}
